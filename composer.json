@@ -7,7 +7,7 @@
             "User\\SolutionsOopPhp\\": "src/"
         },
         "files": [
-            "src/PasswordValidator.php"
+            "src/intro-oop/PasswordValidator.php"
         ]
     },
     "authors": [
