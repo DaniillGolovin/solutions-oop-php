@@ -5,7 +5,10 @@
     "autoload": {
         "psr-4": {
             "User\\SolutionsOopPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/PasswordValidator.php"
+        ]
     },
     "authors": [
         {
