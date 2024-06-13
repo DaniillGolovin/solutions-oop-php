@@ -1,0 +1,23 @@
+{
+    "name": "user/solutions-oop-php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "User\\SolutionsOopPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DaniillGolovin",
+            "email": "daniilgolovin656@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.3"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^9"
+    }
+}
