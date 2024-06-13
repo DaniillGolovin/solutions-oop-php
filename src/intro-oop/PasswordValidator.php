@@ -4,7 +4,6 @@ namespace App;
 
 class PasswordValidator
 {
-    // BEGIN (write your solution here)
 
     private const OPTIONS = [
         'minLength' => 8,
@@ -33,7 +32,6 @@ class PasswordValidator
 
         return $errors;
     }
-    // END
 
     private function hasNumber(string $subject): bool
     {
