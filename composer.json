@@ -4,11 +4,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "User\\SolutionsOopPhp\\": "src/"
-        },
-        "files": [
-            "src/intro-oop/PasswordValidator.php"
-        ]
+            "App\\": "src/intro-oop/"
+        }
     },
     "authors": [
         {

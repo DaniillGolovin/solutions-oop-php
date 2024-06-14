@@ -1,8 +1,21 @@
 <?php
 
+require __DIR__ . '/vendor/autoload.php';
+
+use App\Truncater;
 //$newPasswordValidator = new \App\PasswordValidator();
 
-//$newTruncatler = new \App\Truncater('one two');
-//$Truncutler = $newTruncatler->truncate('one two');
+$newTruncater = new Truncater();
 
-var_dump(substr('asdasd', 0, 3));
+$truncated = $newTruncater->truncate('one two');
+var_dump($truncated);
+$truncated = $newTruncater->truncate('one two', ['length' => 6]);
+var_dump($truncated);
+$truncated = $newTruncater->truncate('one two', ['separator' => '.']);
+var_dump($truncated);
+$truncated = $newTruncater->truncate('one two', ['length' => '3']);
+var_dump($truncated);
+
+$truncated = new Truncater(['length' => '3']);
+$actual = $truncated->truncate('one two');
+var_dump($actual);
