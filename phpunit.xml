@@ -1,0 +1,7 @@
+<phpunit cacheResult="true" cacheResultFile="tests/.phpunit.result.cache">
+    <testsuites>
+        <testsuite name="Project Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
