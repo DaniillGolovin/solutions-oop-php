@@ -4,7 +4,6 @@ namespace App;
 
 class PasswordValidator
 {
-
     private const OPTIONS = [
         'minLength' => 8,
         'containNumbers' => false
