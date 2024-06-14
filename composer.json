@@ -19,7 +19,8 @@
     ],
     "require": {
         "php": ">=7.4.3",
-        "php-ds/php-ds": "^1.5"
+        "php-ds/php-ds": "^1.5",
+        "tightenco/collect": "^9.52"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.5",
