@@ -2,7 +2,7 @@
 
 namespace App\Normalizer;
 
-function normalize(array $raw)
+function normalize(array $raw): array
 {
     $result = [];
 
