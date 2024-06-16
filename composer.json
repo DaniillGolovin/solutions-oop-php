@@ -8,7 +8,8 @@
         },
         "files": [
             "src/intro-oop/Converter.php",
-            "src/intro-oop/Comparator.php"
+            "src/intro-oop/Comparator.php",
+            "src/intro-oop/Normalizer.php"
         ]
     },
     "authors": [
