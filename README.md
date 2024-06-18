@@ -215,3 +215,18 @@ echo $result;
 </details>
 
 ### Polymorphism
+
+<details><summary>1. LinkedList.php</summary>
+
+Реализуйте функцию `reverse($list)`, которая принимает на вход односвязный список и переворачивает его.
+
+```php
+use App\Node;
+use function App\LinkedList\reverse;
+
+// (1, 2, 3)
+$numbers = new Node(1, new Node(2, new Node(3)));
+$reversedNumbers = reverse($numbers); // (3, 2, 1)
+```
+</details>
+
