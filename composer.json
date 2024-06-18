@@ -12,8 +12,8 @@
             "src/intro-oop/Comparator.php",
             "src/intro-oop/Normalizer.php",
             "src/intro-oop/NormalizerTwo.php",
-            "src/polymorphism/LinkedList.php"
-
+            "src/polymorphism/LinkedList.php",
+            "src/polymorphism/HTML.php"
         ]
     },
     "authors": [
