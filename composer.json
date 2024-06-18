@@ -4,13 +4,16 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "src/intro-oop/"
+            "App\\": "src/intro-oop/",
+            "Polymorphism\\": "src/polymorphism/"
         },
         "files": [
             "src/intro-oop/Converter.php",
             "src/intro-oop/Comparator.php",
             "src/intro-oop/Normalizer.php",
-            "src/intro-oop/NormalizerTwo.php"
+            "src/intro-oop/NormalizerTwo.php",
+            "src/polymorphism/LinkedList.php"
+
         ]
     },
     "authors": [
