@@ -1,5 +1,7 @@
 /vendor/
 .idea
+build
+coverage
 
 index.php
 .phpunit.result.cache
