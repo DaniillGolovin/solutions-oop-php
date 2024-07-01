@@ -48,7 +48,7 @@ function buildAtts(array $tag)
 }
 
 /**
- * Solution Polymorphism 3
+ * Solution Polymorphism -> 3
  *
  * This function determines if the tag is a 'single' or 'pair' tag and constructs
  * the appropriate HTML string. 'Single' tags are self-closing, while 'pair' tags
